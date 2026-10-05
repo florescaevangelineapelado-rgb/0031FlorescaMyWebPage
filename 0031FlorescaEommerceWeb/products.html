@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <link
+        rel="stylesheet"
+        href="0031FlorescaStyle.css"
+    >
+
+    <title>
+        Artsista! - Products
+    </title>
+
+</head>
+
+<body>
+
+<div id="top"></div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+    <div class="logo">
+        Artsista!
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="0031FlorescaMyWebPage.html#home">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="products.html">
+                    Products
+                </a>
+            </li>
+
+            <li>
+                <a href="0031FlorescaMyWebPage.html#about">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="0031FlorescaMyWebPage.html#contact">
+                    Contact
+                </a>
+            </li>
+
+            <li>
+                <button
+                    class="login-btn"
+                    onclick="openLogin()"
+                >
+                    Sign In
+                </button>
+            </li>
+
+            <li>
+                <button
+                    class="signup-btn"
+                    onclick="openSignup()"
+                >
+                    Sign Up
+                </button>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<!-- =========================
+     ALL PRODUCTS
+     ========================= -->
+
+<section class="products full-products">
+
+    <h2>
+        All Products 🛍️
+    </h2>
+
+    <p class="section-text">
+        Explore all of the creative products
+        available at Artsista!
+    </p>
+
+
+    <div class="product-container">
+
+
+        <!-- PRODUCT 1 -->
+
+        <div class="product-card">
+
+            <div class="product-image">
+
+                <img
+                    src="print1.png"
+                    alt="Prints"
+                    onclick="openGallery(this, 'Prints')"
+                >
+                 <img
+                    src="print2.png"
+                    alt="Prints"
+                    onclick="openGallery(this, 'Prints')"
+                >
+
+            </div>
+
+            <h3>
+                Prints
+            </h3>
+
+            <p>
+                Beautiful handmade paintings & digital art
+                created by talented artists.
+            </p>
+
+            <span>
+                ₱200
+            </span>
+
+            <button
+                class="cart-btn"
+                onclick="addToCart('Prints')"
+            >
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCT 2 -->
+
+        <div class="product-card">
+
+            <div class="product-image">
+
+                <img
+                    src="pin1.png"
+                    alt="Button Pins"
+                    onclick="openGallery(this, 'Customized Button Pins')"
+                >
+
+                <img
+                    src="pin2.png"
+                    alt="Button Pins"
+                    onclick="openGallery(this, 'Customized Button Pins')"
+                >
+
+                <img
+                    src="pin3.png"
+                    alt="Button Pins"
+                    onclick="openGallery(this, 'Customized Button Pins')"
+                >
+
+            </div>
+
+            <h3>
+                Customized Button Pins
+            </h3>
+
+            <p>
+                Creative digital artwork for art lovers.
+            </p>
+
+            <span>
+                ₱50
+            </span>
+
+            <button
+                class="cart-btn"
+                onclick="addToCart('Customized Button Pins')"
+            >
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCT 3 -->
+
+        <div class="product-card">
+
+            <div class="product-image">
+
+                <img
+                    src="clothes1.png"
+                    alt="Art in Clothes"
+                    onclick="openGallery(this, 'Art in Clothes')"
+                >
+
+                <img
+                    src="clothes2.png"
+                    alt="Art in Clothes"
+                    onclick="openGallery(this, 'Art in Clothes')"
+                >
+
+            </div>
+
+            <h3>
+                Art in Clothes
+            </h3>
+
+            <p>
+               Customized clothing with unique art designs for fashion enthusiasts.
+            </p>
+
+            <span>
+                ₱500
+            </span>
+
+            <button
+                class="cart-btn"
+                onclick="addToCart('Art in Clothes')"
+            >
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCT 4 -->
+
+        <div class="product-card">
+
+            <div class="product-image">
+
+                <img
+                    src="bag.png"
+                    alt="Drawing Tools Bag"
+                    onclick="openGallery(this, 'Drawing Tools Bag')"
+                >
+
+            </div>
+
+            <h3>
+                Drawing Tools Bag
+            </h3>
+
+            <p>
+                A convenient bag for artists sketching
+                and drawing! Easy to bring your art
+                supplies anywhere.
+            </p>
+
+            <span>
+                ₱200
+            </span>
+
+            <button
+                class="cart-btn"
+                onclick="addToCart('Drawing Tools Bag')"
+            >
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCT 5 -->
+
+        <div class="product-card">
+
+            <div class="product-image">
+
+                <img
+                    src="sticker.png"
+                    alt="Stickers"
+                    onclick="openGallery(this, 'Stickers')"
+                >
+                 <img
+                    src="sticker2.png"
+                    alt="Stickers"
+                    onclick="openGallery(this, 'Stickers')"
+                >
+             <img
+                    src="sticker3.png"
+                    alt="Stickers"
+                    onclick="openGallery(this, 'Stickers')"
+                
+                >
+                <img
+                    src="sticker4.png"
+                    alt="Stickers"
+                    onclick="openGallery(this, 'Stickers')"
+                
+                >
+            </div>
+
+            <h3>
+                Stickers
+            </h3>
+
+            <p>
+                Customized stickers for creative expression.
+            </p>
+
+            <span>
+                ₱30
+            </span>
+
+            <button
+                class="cart-btn"
+                onclick="addToCart('Stickers')"
+            >
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCT 6 -->
+
+        <div class="product-card">
+
+            <div class="product-image">
+
+                <img
+                    src="cover.png"
+                    alt="Book Cover Commission"
+                    onclick="openGallery(this, 'Book Cover Commission')"
+                >
+
+            </div>
+
+            <h3>
+                Book Cover Commission
+            </h3>
+
+            <p>
+                Custom book cover designs for your
+                personal library. Send Inquiry for more details.
+            </p>
+
+            <span>
+                ₱350
+            </span>
+
+            <button
+                class="cart-btn"
+                onclick="addToCart('Book Cover Commission')"
+            >
+                Add to Cart
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PHOTO GALLERY
+     ========================= -->
+
+<div
+    id="photoGallery"
+    class="photo-gallery"
+>
+
+    <button
+        class="close-gallery"
+        onclick="closeGallery()"
+    >
+        ×
+    </button>
+
+
+    <button
+        class="previous"
+        onclick="previousPhoto()"
+    >
+        ‹
+    </button>
+
+
+    <div class="gallery-content">
+
+        <img
+            id="galleryPhoto"
+            src=""
+            alt="Product Photo"
+        >
+
+        <h3 id="galleryProductName">
+            Product
+        </h3>
+
+        <button
+            class="gallery-cart"
+            onclick="addGalleryProduct()"
+        >
+            Add to Cart 🛒
+        </button>
+
+    </div>
+
+
+    <button
+        class="next"
+        onclick="nextPhoto()"
+    >
+        ›
+    </button>
+
+</div>
+
+
+<!-- =========================
+     SIGN IN MODAL
+     ========================= -->
+
+<div
+    class="modal"
+    id="loginModal"
+>
+
+    <div class="modal-content">
+
+        <span
+            class="close"
+            onclick="closeLogin()"
+        >
+            &times;
+        </span>
+
+        <h2>
+            Sign In
+        </h2>
+
+        <p>
+            Welcome back, artist! 💗
+        </p>
+
+        <form onsubmit="login(event)">
+
+            <input
+                type="email"
+                id="loginEmail"
+                placeholder="Email"
+                required
+            >
+
+            <input
+                type="password"
+                id="loginPassword"
+                placeholder="Password"
+                required
+            >
+
+            <button type="submit">
+                Sign In
+            </button>
+
+        </form>
+
+        <p>
+            Don't have an account?
+
+            <a
+                href="#"
+                onclick="switchToSignup(); return false;"
+            >
+                Sign Up
+            </a>
+
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     SIGN UP MODAL
+     ========================= -->
+
+<div
+    class="modal"
+    id="signupModal"
+>
+
+    <div class="modal-content">
+
+        <span
+            class="close"
+            onclick="closeSignup()"
+        >
+            &times;
+        </span>
+
+        <h2>
+            Create Account
+        </h2>
+
+        <form onsubmit="signup(event)">
+
+            <input
+                type="text"
+                id="signupName"
+                placeholder="Full Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="signupEmail"
+                placeholder="Email"
+                required
+            >
+
+            <input
+                type="password"
+                id="signupPassword"
+                placeholder="Password"
+                required
+            >
+
+            <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Confirm Password"
+                required
+            >
+
+            <button type="submit">
+                Sign Up
+            </button>
+
+        </form>
+
+        <p>
+            Already have an account?
+
+            <a
+                href="#"
+                onclick="switchToLogin(); return false;"
+            >
+                Sign In
+            </a>
+
+        </p>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    <p>
+        © 2026 Artsista! All Rights Reserved.
+    </p>
+
+    <a
+        href="#top"
+        class="back-to-top"
+    >
+        ↑ Back to Top
+    </a>
+
+</footer>
+
+<!-- JAVASCRIPT -->
+
+<script src="0031FlorescaScript.js"></script>
+
+</body>
+
+</html>
+
